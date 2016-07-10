@@ -13,6 +13,7 @@ To clone into a new repo use:
 4. `git remote add origin https://github.com/nobodyrandom/NAME_OF_REPO.git`
 5. `git push -u origin master`
 
+(If you are really that lazy, I've included a shell script to run step 2 onwards to set up everything. Run it using `./init.sh` on terminal. No cmd support yet)
 
 If you would like to use quick deploy into heroku after you cloned.
 
