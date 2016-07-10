@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RED='\033[0;31m'
-NC='\033[0m' # No Color
+RED=$'\033[0;31m'
+NC=$'\033[0m' # No Color
 
 echo "Why you so lazy >.<"
 sleep 1
@@ -27,3 +27,16 @@ done
 git remote rm origin
 git remote add origin https://github.com/$REPO.git
 git push -u origin master
+
+echo "Alls well. Done init."
+
+while true; do
+    read -p "Do you want to init composer as well? (php must be setup for this to work)" yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Okay :("; exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+php composer.phar update
