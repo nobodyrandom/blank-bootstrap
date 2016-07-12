@@ -24,9 +24,13 @@ while true; do
 done
 
 # LOL FINALLY ACTUALLY RUNNING THE COMMANDS
-git remote rm origin
-git remote add origin https://github.com/$REPO.git
+# git remote rm origin
+echo -e "Changing ${RED}https://github.com/$REPO.git${NC} to origin."
+git remote set-url origin https://github.com/$REPO.git
+echo -e "Init origin master"
 git push -u origin master
+echo -e "Setting up API remote for api sync"
+git remote add api https://github.com/nobodyrandom/blank-bootstrap.git
 
 echo "Alls well. Done init."
 

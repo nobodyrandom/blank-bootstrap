@@ -8,6 +8,9 @@
 
 $linkTo = $_GET['link'];
 switch ($linkTo) {
+    case "dev":
+        $url = "https://developersfoundation.ca/";
+        break;
     case "facebook":
         $url = "https://www.facebook.com/";
         break;
@@ -21,9 +24,8 @@ switch ($linkTo) {
         break;
     case "home":
     default:
-        $url = "https://developersfoundation.ca";
+        $url = "https://developersfoundation.ca/";
 }
 
 header("Location: " . $url);
 exit;
-?>

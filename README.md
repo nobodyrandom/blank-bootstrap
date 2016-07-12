@@ -1,9 +1,9 @@
 # blank-bootstrap
-For dev found
+For developers' foundation
 
 Dupe this for quick new projects :D
 
-Git link is: https://github.com/nobodyrandom/blank-bootstrap.git
+GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
 
 To clone into a new repo use:
 
@@ -17,6 +17,6 @@ To clone into a new repo use:
 
 If you would like to use quick deploy into heroku after you cloned.
 
-Update the app.json and click the below button.
+Update the `app.json` and click the below button.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
