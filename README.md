@@ -9,9 +9,10 @@ To clone into a new repo use:
 
 1. Create new git repo on github
 2. `git clone https://github.com/nobodyrandom/blank-bootstrap.git projectName`
-3. `git remote rm origin`
-4. `git remote add origin https://github.com/nobodyrandom/NAME_OF_REPO.git`
-5. `git push -u origin master`
+3. `cd projectName`
+4. `git remote rm origin`
+5. `git remote add origin https://github.com/nobodyrandom/NAME_OF_REPO.git`
+6. `git push -u origin master`
 
 (If you are really that lazy, I've included a shell script to run step 2 onwards to set up everything. Run it using `./init.sh` on terminal. No cmd support yet)
 
