@@ -5,6 +5,8 @@ Dupe this for quick new projects :D
 
 GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
 
+
+### Clone template and setup composer
 To clone into a new repo use:
 
 1. Create new git repo on github
@@ -16,6 +18,8 @@ To clone into a new repo use:
 
 (If you are really that lazy, I've included a shell script to run step 2 onwards to set up everything. Run it using `./init.sh` on terminal. No cmd support yet)
 
+
+### Deploy to Heroku
 If you would like to use quick deploy into heroku after you cloned.
 
 Update the `app.json` and click the below button.
