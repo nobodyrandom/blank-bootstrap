@@ -8,7 +8,7 @@ GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
 To clone into a new repo use:
 
 1. Create new git repo on github
-2. `git clone https://github.com/nobodyrandom/blank-bootstrap.git projectName`
+2. In a clean space (not inside another git repo) `git clone https://github.com/nobodyrandom/blank-bootstrap.git projectName`
 3. `cd projectName`
 4. `git remote rm origin`
 5. `git remote add origin https://github.com/nobodyrandom/NAME_OF_REPO.git`
