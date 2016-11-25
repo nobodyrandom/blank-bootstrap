@@ -1,9 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: harrisonchow
- * Date: 7/10/16
- * Time: 12:00 AM
- */
 
-include_once "index.html";
+//include_once "../vendor/autoload.php";
+
+$page = "index-page";
+$hasGmap = true;
+
+//include_once "Modules/index2.php";
+include "faq.php";
+//include_once "Modules/footer.php";
