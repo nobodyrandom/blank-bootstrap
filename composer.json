@@ -15,6 +15,7 @@
   },
 
   "require": {
+    "ext-memcached": "*",
     "sendgrid/sendgrid": "4.0.4"
   }
 }
