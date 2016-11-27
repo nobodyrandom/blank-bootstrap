@@ -9,8 +9,12 @@
       "email": "harrison@developersfoundation.ca"
     }
   ],
+
+  "require-dev" : {
+    "heroku/heroku-buildpack-php": "*"
+  },
+
   "require": {
-    "sendgrid/sendgrid": "4.0.4",
-    "parse/php-sdk": "1.2.1"
+    "sendgrid/sendgrid": "4.0.4"
   }
 }
