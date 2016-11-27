@@ -3,6 +3,7 @@
 $page = "index-page";
 $hasGmap = true;
 
-include_once "faq.php";
-include_once "carouselSingle.php";
-include_once "footer2.php";
+include_once "html_elements/index.php";
+include_once "html_elements/faq.php";
+include_once "html_elements/carouselSingle.php";
+include_once "html_elements/footer2.php";
