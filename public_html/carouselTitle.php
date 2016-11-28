@@ -5,8 +5,7 @@
 <div class="header header-filter carousel slide" style="" id="title-carousel" xmlns="//www.w3.org/1999/html"
      xmlns="//www.w3.org/1999/html">
 
-    <!-- Add the class hidden if you want to remove the image selector -->
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators hidden">
         <li data-target="#title-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#title-carousel" data-slide-to="1" class=""></li>
         <li data-target="#title-carousel" data-slide-to="2" class=""></li>
@@ -16,7 +15,7 @@
 
     <div class="carousel-inner title-carousel">
         <div class="item active">
-            <img src="http://placekitten.com/g/1000/401" style="width: 100%;" class="img-responsive">
+            <img src="http://placekitten.com/g/1000/411" style="width: 100%;" class="img-responsive">
             <div class="carousel-caption">
 
                 <!-- To add captions use the following tag -->

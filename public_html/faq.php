@@ -1,28 +1,10 @@
 
 
-<!--
 
-
-This is a basic faq module,
-the links and scripts included are needed for this module to be functional.
-
-To use this module, place the links in the header and the scripts in the footer,
-ensure you do not link the same file multiple times.
-
-
-
-TODO: add css to support this file
-
-    Classes to make:
-        - FAQ
-        - faqContent
-
--->
-
-
-
+<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
 
 
