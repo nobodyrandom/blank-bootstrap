@@ -4,7 +4,6 @@
 <!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-
 <nav id="footer">
     <div class="container">
         <div class="row">
@@ -30,7 +29,6 @@
         </div>
     </div>
 </nav>
-
 
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

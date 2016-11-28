@@ -125,7 +125,6 @@
             <div class="clearfix"></div>
         </div>
     </div>
-    </div>
 
     <div class="footer-bottom">
         <div class="container text-right">
@@ -139,9 +138,8 @@
   ================================================== -->
 
 <!-- jQuery -->
-
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
 <!-- Bootsrap javascript file -->
 <script src="../assets/js/bootstrap.min.js"></script>
