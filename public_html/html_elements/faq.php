@@ -1,6 +1,6 @@
 
 <!-- FAQ contents goes in here -->
-<div id="faq">
+<div id="faq" style="background-color: #C5D6D8">
     <div class="container">
 
 

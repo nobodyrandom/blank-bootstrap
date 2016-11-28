@@ -1,5 +1,5 @@
 
-<nav id="footer">
+<nav id="footer" style="background-color: black">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

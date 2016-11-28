@@ -22,7 +22,6 @@
     <!-- Custom Fonts -->
     <link href="//fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -40,8 +39,11 @@
     <?php
         $page = "index-page";
         $hasGmap = true;
+        include_once "html_elements/carouselTitle.php";
         include_once "html_elements/carouselThree.php";
-        include_once "html_elements/footer.php";
+        include_once "html_elements/faq.php";
+//        include_once "html_elements/footer.php";
+//        include_once "html_elements/footer.php";
         include_once "html_elements/footer3.php";
     ?>
 

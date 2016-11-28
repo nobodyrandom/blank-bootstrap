@@ -1,21 +1,15 @@
 
-<footer class="footer">
+<footer class="footer" style="background-color: #60695C">
 
     <div class="footer-top"></div>
 
     <div class="footer-main">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="footer-col">
                         <h4 class="footer-title">About us<span class="title-under"></span></h4>
                         <div class="footer-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, ne quas soleat interpretaris mel.
-                                Cu quo vide eruditi iracundia, has eu feugait noluisse. Ad
-                                amet recteque laboramus vim, sea nominavi legendos at. Per ut
-                                ullum imperdiet, fierent mediocrem ad sit.
-                            </p>
                             <p>
                                 Lorem ipsum dolor sit amet, ne quas soleat interpretaris mel.
                                 Cu quo vide eruditi iracundia, has eu feugait noluisse. Ad
@@ -26,7 +20,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="footer-col">
                         <h4 class="footer-title">TWITTER FEED <span class="title-under"></span></h4>
 
@@ -49,7 +43,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="footer-col">
                         <h4 class="footer-title">RSS FEED<span class="title-under"></span></h4>
                         <!-- start feedwind code -->
