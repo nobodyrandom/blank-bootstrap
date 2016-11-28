@@ -5,8 +5,7 @@ if you have received this message it would be much appreciated if you could plea
 so that I can fix this error. Thank you.
 -->
 
-<div class="section suggestion-section header-filter"
-     style="width: 100%; background-image: url(//placekitten.com/g/2000/800) ;">
+<div class="section suggestion-section header-filter" id="mailerForm" style="width: 100%; background-image: url(//placekitten.com/g/2000/800);">
     <div class="container">
         <div class="title text-center">
             <h2><strong>Contact Us</strong></h2>

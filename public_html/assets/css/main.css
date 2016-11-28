@@ -93,6 +93,8 @@
     overflow: hidden;
 }
 
-a {
-    color: gray;
+#mailerForm {
+    width: 100%;
+    padding: 20px;
+    background-image: url(//placekitten.com/g/2000/800);
 }
