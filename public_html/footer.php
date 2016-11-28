@@ -1,9 +1,9 @@
+<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="../assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 <nav id="footer">
     <div class="container">

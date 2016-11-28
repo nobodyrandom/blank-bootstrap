@@ -1,9 +1,9 @@
 <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
 
-<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 <!-- Font awesome -->
-<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 <!-- Template main Css -->
 <!--<link rel="stylesheet" href="assets/css/style.css">-->
@@ -135,16 +135,6 @@
 
 </footer> <!-- main-footer -->
 
-<!--  Scripts
-  ================================================== -->
-
-<!-- jQuery -->
-
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
-
-<!-- Bootsrap javascript file -->
-<script src="../assets/js/bootstrap.min.js"></script>
 
 
 
