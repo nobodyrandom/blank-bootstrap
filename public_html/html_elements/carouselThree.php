@@ -1,5 +1,5 @@
 
-<div class="section" style="background-image: url(//placekitten.com/g/2000/800)">
+<div class="section">
     <div class="container">
         <div class="title">
             <h2><Strong>Sample header</Strong></h2>
