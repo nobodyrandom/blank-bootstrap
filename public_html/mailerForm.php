@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/material-kit.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/material-kit.css">
 
 <!--
 Test message. This message is intended to be sent to Paul Salvatore for testing purposes, if you have received this message it would be much appreciated if you could please contact me (psalvato@uwo.ca) so that I can fix this error. Thank you.
@@ -41,8 +41,3 @@ Test message. This message is intended to be sent to Paul Salvatore for testing 
         </div>
     </div>
 </div>
-
-
-<script src="../assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="../assets/js/nob.js" type="text/javascript"></script>

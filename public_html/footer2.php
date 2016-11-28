@@ -1,20 +1,9 @@
 <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
 
-<<<<<<< HEAD:public_html/html_elements/footer2.php
-<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="../assets/css/material-kit.css" rel="stylesheet"/>
-<script src="../assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
-
-
-=======
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/material-kit.css" rel="stylesheet"/>
->>>>>>> ce8c255f99b7a8ca6039f140e40d4caa49fdaf9d:public_html/footer2.php
 
 <footer class="footer">
     <div class="container">
@@ -38,6 +27,3 @@
     </div>
 </footer>
 
-
-<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
