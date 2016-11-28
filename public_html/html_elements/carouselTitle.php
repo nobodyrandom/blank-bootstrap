@@ -1,5 +1,5 @@
-<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
-<link href="assets/css/material-kit.css" rel="stylesheet"/>
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../assets/css/material-kit.css" rel="stylesheet"/>
 
 
 <div class="header header-filter carousel slide" style="" id="title-carousel" xmlns="//www.w3.org/1999/html"
