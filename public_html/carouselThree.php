@@ -6,10 +6,9 @@
         <div class="title">
             <h2><Strong>Sample header</Strong></h2>
         </div>
-        <hr>
         <div class="row">
             <div class="col-md-12">
-                <div class="card card-carousel exec-carousel">
+                <div class="card card-carousel three-carousel">
                     <div class="carousel slide three" id="teamCarousel" data-ride="carousel" style="padding-top: 25px;">
                         <ol class="carousel-indicators hidden-sm-down">
                             <li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
