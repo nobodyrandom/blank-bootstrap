@@ -1,8 +1,9 @@
 
-<div class="section" style="background-color: #3e3e3b">
+<div class="section" style="background-color: #99F7AB">
     <div class="container">
         <div class="title" style="color: #ffffff">
             <h2><Strong>Sample header</Strong></h2>
+            <hr id="faqHr">
         </div>
         <div class="row">
             <div class="col-md-12">

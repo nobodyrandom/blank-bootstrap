@@ -16,10 +16,10 @@
             <div class="carousel-caption">
 
                 <!-- To add captions use the following tag -->
-                <div class="carousel-caption">
-                    <h4>Sample caption</h4>
-                    <h4>Another sample caption line</h4>
-                </div>
+<!--                <div class="carousel-caption">-->
+<!--                    <h4>Sample caption</h4>-->
+<!--                    <h4>Another sample caption line</h4>-->
+<!--                </div>-->
 
             </div>
         </div>

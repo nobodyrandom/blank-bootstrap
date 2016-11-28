@@ -40,9 +40,9 @@
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
-.carousel .carousel-caption {
-    padding-bottom: 5px;
-}
+/*.carousel .carousel-caption {*/
+    /*padding-bottom: 5px;*/
+/*}*/
 
 .carousel .carousel-caption .material-icons {
     position: relative;
@@ -73,17 +73,13 @@
     overflow-y: hidden;
 }
 
-hr {
-    border-color: #008000;
-    border-width: 4px;
-    width: 10%;
-    clear: both;
-}
 
 .title-carousel {
     position: relative;
-    height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
+a {
+    color: gray;
+}
