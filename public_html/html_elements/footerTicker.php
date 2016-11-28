@@ -1,5 +1,5 @@
 
-<footer class="footer">
+<footer class="footer footerTicker" style="background-color: #C5D8E9">
 
     <div class="footer-top"></div>
 
@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 footer3">
+                <div class="col-md-4 footer3">
                     <div class="footer-col">
                         <h4 class="footer-title">TWITTER FEED<span class="title-under"></span></h4>
 
@@ -63,13 +63,14 @@
 
                                     // The line below is where you input the rss feed location.
                                     rssmikle_url: "https://news.google.ca/?output=rss",
-                                    rssmikle_frame_width: "500",
+                                    rssmikle_frame_width: "100%",
                                     rssmikle_frame_height: "400",
                                     frame_height_by_article: "0",
                                     rssmikle_target: "_blank",
                                     rssmikle_font: "Arial, Helvetica, sans-serif",
                                     rssmikle_font_size: "12",
                                     rssmikle_border: "off",
+                                    rssmikle_color: "#00000",
                                     responsive: "off",
                                     rssmikle_css_url: "",
                                     text_align: "left",
@@ -110,8 +111,8 @@
                                 feedwind_show_widget_iframe(params);
                             })();
                         </script>
-                        <div style="font-size:10px; text-align:center; width:100%;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed
-                                Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
+                        <div style="font-size:10px; text-align:center; width:100%;">
+                            <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
                         </div>
                     </div>
                 </div>
