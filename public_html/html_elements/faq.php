@@ -1,5 +1,4 @@
 
-
 <!-- FAQ contents goes in here -->
 <div id="faq">
     <div class="container">
@@ -45,5 +44,3 @@
         </div>
     </div>
 </div>
-
-
