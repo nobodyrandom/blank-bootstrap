@@ -419,10 +419,6 @@ h5 {
     line-height: 20px;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
-}
-
 p.intro {
     font-size: 16px;
     margin: 12px 0 0;
@@ -431,7 +427,7 @@ p.intro {
 }
 
 a {
-    color: #FCAC45;
+    color: white;
 }
 
 a:hover,
@@ -1018,7 +1014,6 @@ button.btn.tf-btn.btn-default {
 
 /* Footer */
 nav#footer {
-    background: #222222;
     color: #ffffff;
     padding: 20px 0 15px 0;
 }
@@ -1222,4 +1217,14 @@ input[type="password"] {
     color: rgba(0, 0, 0, 0.7);
     font-style: italic;
     font-weight: 500;
+}
+
+
+
+
+
+*{
+    color: darkgreen;
+    background-color: #5bc0de;
+    font-family: 'Vidaloka', serif;
 }
