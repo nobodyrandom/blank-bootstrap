@@ -1,15 +1,22 @@
 
-<footer class="footer" style="background-color: #60695C">
+<footer class="footer">
 
     <div class="footer-top"></div>
 
     <div class="footer-main">
         <div class="container">
+            <p><br></p>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4 footer3">
                     <div class="footer-col">
                         <h4 class="footer-title">About us<span class="title-under"></span></h4>
                         <div class="footer-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, ne quas soleat interpretaris mel.
+                                Cu quo vide eruditi iracundia, has eu feugait noluisse. Ad
+                                amet recteque laboramus vim, sea nominavi legendos at. Per ut
+                                ullum imperdiet, fierent mediocrem ad sit.
+                            </p>
                             <p>
                                 Lorem ipsum dolor sit amet, ne quas soleat interpretaris mel.
                                 Cu quo vide eruditi iracundia, has eu feugait noluisse. Ad
@@ -20,9 +27,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 footer3">
                     <div class="footer-col">
-                        <h4 class="footer-title">TWITTER FEED <span class="title-under"></span></h4>
+                        <h4 class="footer-title">TWITTER FEED<span class="title-under"></span></h4>
 
                         <!--
                         To use this twitter feed you must set up your twitter widget and get a data-widget id,
@@ -43,11 +50,14 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-4 footer3">
                     <div class="footer-col">
                         <h4 class="footer-title">RSS FEED<span class="title-under"></span></h4>
                         <!-- start feedwind code -->
-                        <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script>
+                        <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' +
+                                ('https:' == document.location.protocol ? 'https://' : 'http://') +
+                                'feed.mikle.com/js/rssmikle.js">\x3C/script>');
+                        </script>
                         <script type="text/javascript">(function () {
                                 var params = {
 
@@ -100,7 +110,7 @@
                                 feedwind_show_widget_iframe(params);
                             })();
                         </script>
-                        <div style="font-size:10px; text-align:center; width:300px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed
+                        <div style="font-size:10px; text-align:center; width:100%;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed
                                 Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
                         </div>
                     </div>
