@@ -4048,11 +4048,11 @@ h2.title {
     }
 }
 
-.exec-carousel .carousel-inner {
-    height: 450px;
+.three-carousel .carousel-inner {
+    height: 420px;
 }
 
-.exec-carousel .item {
+.three-carousel .item {
     overflow-y: hidden;
 }
 
@@ -4070,6 +4070,3 @@ hr {
     overflow: hidden;
 }
 
-#job-opportunities ul {
-    list-style-type: none;
-}
