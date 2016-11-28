@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="assets/css/material-kit.css">
 
 <div class="section" style="background-image: url(//placekitten.com/g/2000/800)">
     <div class="container">

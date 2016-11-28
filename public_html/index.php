@@ -1,12 +1,25 @@
-<?php
+<!DOCTYPE html>
 
-$page = "index-page";
-$hasGmap = true;
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/material-kit.css">
+</head>
 
-include_once "carouselTitle.php";
-include_once "faq.php";
-include_once "carouselThree.php";
-include_once "footer.php";
-include_once "footer2.php";
-include_once "footer3.php";
-include_once "footerScripts.php";
+<body>
+    <?php
+    $page = "index-page";
+    $hasGmap = true;
+    include_once "html_elements/header.php";
+    include_once "html_elements/carouselThree.php";
+    include_once "html_elements/footer.php";
+    include_once "html_elements/footer3.php";
+    ?>
+</body>
+
+<script src="assets/js/jquery.min.js"    type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/nob.js"           type="text/javascript"></script>
+<script src="assets/js/material.min.js"                        ></script>
+<script src="assets/js/material-kit.js"  type="text/javascript"></script>
