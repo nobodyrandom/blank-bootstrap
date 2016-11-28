@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col">
-                        <h4 class="footer-title">About us <span class="title-under"></span></h4>
+                        <h4 class="footer-title">About us<span class="title-under"></span></h4>
                         <div class="footer-content">
                             <p>
                                 Lorem ipsum dolor sit amet, ne quas soleat interpretaris mel.

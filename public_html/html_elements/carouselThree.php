@@ -1,7 +1,7 @@
 
-<div class="section">
+<div class="section" style="background-color: #3e3e3b">
     <div class="container">
-        <div class="title">
+        <div class="title" style="color: #ffffff">
             <h2><Strong>Sample header</Strong></h2>
         </div>
         <div class="row">
