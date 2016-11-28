@@ -3,7 +3,7 @@
 
 <head>
 
-    <!-- Webpage metadata -->
+    <!--=========================================== WEBPAGE METADATA ====================================-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
     <!-- Theme CSS -->
-<!--    <link href="assets/css/freelancer.min.css" rel="stylesheet">-->
+    <link href="assets/css/freelancer.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
     <!-- Custom Fonts -->
@@ -36,13 +36,14 @@
 </head>
 
 <body>
-    <!--=========================================== MAIN FILES ===========================================-->
+    <!--=========================================== MAIN FILES ==========================================-->
     <?php
         $page = "index-page";
         $hasGmap = true;
+        include_once "html_elements/navBar.php";
         include_once "html_elements/carouselThree.php";
+        include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";
-        include_once "html_elements/footer3.php";
     ?>
 
 
@@ -53,7 +54,7 @@
 
 
 
-    <!--=========================================== JS SCRIPTS ===========================================-->
+    <!--=========================================== JS SCRIPTS ==========================================-->
     <!-- jQuery -->
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
 
@@ -68,6 +69,7 @@
     <!-- <script src="js/contact_me.js"></script>-->
 
     <!-- Theme JavaScript -->
+    <script src="assets/js/freelancer.js"></script>
     <script src="assets/js/freelancer.min.js"></script>
     <script src="assets/js/material.min.js"></script>
     <script src="assets/js/material-kit.js" type="text/javascript"></script>
