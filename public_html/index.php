@@ -9,12 +9,11 @@
 
 <body>
     <?php
-    $page = "index-page";
-    $hasGmap = true;
-    include_once "html_elements/header.php";
-    include_once "html_elements/carouselThree.php";
-    include_once "html_elements/footer.php";
-    include_once "html_elements/footer3.php";
+        $page = "index-page";
+        $hasGmap = true;
+        include_once "html_elements/carouselThree.php";
+        include_once "html_elements/footer.php";
+        include_once "html_elements/footer3.php";
     ?>
 </body>
 
