@@ -1,1 +1,2 @@
 Nov 26 - Added three-carousel and title-carousel
+Nov 28 - Ready to begin CSS (some core modules completed).

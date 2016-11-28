@@ -74,7 +74,7 @@
                             <i class="material-icons black-icon">keyboard_arrow_left</i>
                         </a>
                         <a class="right carousel-control" href="#teamCarousel" data-slide="next">
-                            <i class="material-icons black-icon">keyboard_arrow_right</i>
+                            <i class="material-icons black-icon">t</i>
                         </a>
                     </div>
                 </div>
