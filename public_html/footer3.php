@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 <!-- Template main Css -->
-<link rel="stylesheet" href="assets/css/style.css">
+<!--<link rel="stylesheet" href="assets/css/style.css">-->
 
 
 <footer class="footer">
