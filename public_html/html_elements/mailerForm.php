@@ -18,13 +18,13 @@ so that I can fix this error. Thank you.
                 <div class="col-md-6 left">
                     <div class="input-group">
 		                    <span class="input-group-addon">
-			                    <i class="fa fa-user"></i>
+			                    <i class="fa fa-user" id="contactIcon1"></i>
 		                    </span>
                         <input type="text" class="form-control form-input-name" placeholder="Your Name">
                     </div>
                     <div class="input-group">
 		                    <span class="input-group-addon">
-			                    <i class="fa fa-envelope"></i>
+			                    <i class="fa fa-envelope" id="contactIcon2"></i>
 		                    </span>
                         <input type="text" class="form-control form-input-email" placeholder="Your Email">
                     </div>
