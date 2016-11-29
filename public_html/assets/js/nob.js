@@ -113,7 +113,7 @@ $(document).ready(function () {
             // Nob form
             var sendFrom = emailField.val(),
 
-                // Input the email you wish the message to send to here.
+            // Input the email you wish the message to send to here.
                 sendTo = "psalvato@uwo.ca",
                 subject = "Message from " + nameField.val(),
                 msg = messageField.val(),
@@ -133,8 +133,13 @@ $(document).ready(function () {
                 'msgHTML': msgHTML
             });
 
+        /* Print the current working directory. */
+            // var loc = window.location.pathname;
+            // var dir = loc.substring(0, loc.lastIndexOf('/'));
+            // console.log(dir);
+
             $.ajax({
-                url: '../../mailer.php',
+                url: 'html_elements/mailer.php',
                 crossDomain: false,
                 data: sendData,
                 method: "POST",
@@ -145,6 +150,7 @@ $(document).ready(function () {
                     // Deal with JSON
                     console.log(data);
                     var returnData = data;
+
                     submitButton.removeClass("btn-primary");
                     if (returnData.success) {
                         // Throw success msg
@@ -155,12 +161,13 @@ $(document).ready(function () {
                         submitButton.addClass("btn-success");
                     } else {
                         // Throw error message
-                        submitButton.html("Sorry an error occured");
+                        submitButton.html("Sorry an error occurred");
                         submitButton.addClass("btn-danger");
                     }
                     submitButton.prop("disabled", false);
                 },
                 error: function (error) {
+                    console.log("Email was not sent successfully.");
                     console.log(error);
                     // Throw error message
                     submitButton.html("Sorry an error occured");

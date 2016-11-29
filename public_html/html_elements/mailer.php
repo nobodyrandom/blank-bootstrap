@@ -11,11 +11,12 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
     exit;
 }
 
-require '../vendor/autoload.php';
+require '../../vendor/autoload.php';
 $getPost = (array)json_decode(file_get_contents('php://input'));
 
 $sendgrid = new SendGrid('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');
 $email = new SendGrid\Email();
+
 
 $email
     ->addTo($getPost['sendTo'])
@@ -32,7 +33,8 @@ $email
 //test
 try {
     $sendgrid->send($email);
-    echo json_encode(array('success' => true, 'message' => "done"));
+//    echo json_encode(array('success' => true, 'message' => "done"));
+    json_encode(array('success' => true, 'message' => "done"));
 } catch (\SendGrid\Exception $e) {
     $err = $e->getCode() . "\n";
     foreach ($e->getErrors() as $er) {
