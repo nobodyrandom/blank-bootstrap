@@ -1,9 +1,9 @@
 
 <!-- FAQ contents goes in here -->
-<div id="faq" style="background-color: #FFFFFF">
+<div id="faq"">
     <div class="container">
 
-        <p><br></p>
+
         <div class="row">
 
             <div class="col-sm-10 col-sm-offset-1">

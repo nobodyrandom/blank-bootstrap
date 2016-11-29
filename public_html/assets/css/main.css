@@ -3,11 +3,7 @@
 
 
 
-/*============================================ FOOTER3.PHP ========================================================*/
 
-.footer3 {
-    color: #3E3E3B;
-}
 
 /*============================================ CAROUSEL FORMATTING ============================================*/
 
@@ -53,10 +49,6 @@
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
-/*.carousel .carousel-caption {*/
-    /*padding-bottom: 5px;*/
-/*}*/
-
 .carousel .carousel-caption .material-icons {
     position: relative;
     top: 5px;
@@ -93,8 +85,55 @@
     overflow: hidden;
 }
 
+#threeCarousel {
+    background-color: ghostwhite;
+    margin-top: 100px;
+}
+
+/*============================================ FAQ.PHP ========================================================*/
+
+
+#faq {
+    background-color: ghostwhite;
+}
+
+/*============================================ MAILERFORM.PHP ========================================================*/
+
+
 #mailerForm {
     width: 100%;
     padding: 20px;
-    background-color: #3e3e3b;
+    background-color: ghostwhite;
 }
+
+
+/*============================================ FOOTERTICKER.PHP ========================================================*/
+
+#footer i.fa {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #8c8c8c;
+    font-size: 20px;
+    padding: 4px 5px;
+    border-radius: 50%;
+    color: #8c8c8c;
+    transition: all 0.5s;
+}
+
+
+#footer i.fa:hover {
+    background: #FCAC45;
+    border-color: #FCAC45;
+    color: #ffffff;
+}
+
+#footerTicker {
+    background-color: ghostwhite;
+    color: #3E3E3B;
+}
+
+
+#footer {
+    background-color: #2C3E50;
+}
+

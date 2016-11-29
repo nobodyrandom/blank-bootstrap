@@ -1,11 +1,6 @@
 
-<div class="section" id="portfolio" style="background-color: #3e3e3b">
+<div class="section" id="threeCarousel">
     <div class="container">
-        <p><br></p>
-        <div class="title" style="color: #ffffff">
-            <h2><Strong>Sample header</Strong></h2>
-            <hr id="faqHr">
-        </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="card card-carousel three-carousel">
