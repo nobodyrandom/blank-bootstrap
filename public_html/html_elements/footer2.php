@@ -1,5 +1,5 @@
 
-<footer class="footer">
+<footer class="footer" id="footerText">
     <div class="container">
         <div class="social-area pull-right">
             <a href="link.php?link=facebook" class="btn btn-social btn-facebook btn-simple">

@@ -18,7 +18,7 @@
                     <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 </ul>
             </div>
-            <div class="col-sm-12 text-center">
+            <div class="col-sm-12 text-center" id="footerText">
                 <p>Copyright &copy; 2016. Developers' Foundation. All rights reserved.</a></p>
             </div>
         </div>
