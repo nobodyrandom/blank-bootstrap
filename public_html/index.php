@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
     <!-- Custom Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -43,6 +42,7 @@
         include_once "html_elements/header.php";
         include_once "html_elements/carouselThree.php";
         include_once "html_elements/faq.php";
+        include_once "html_elements/carouselTitle.php";
         include_once "html_elements/mailerForm.php";
         include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";

@@ -87,7 +87,6 @@
 
 #threeCarousel {
     background-color: ghostwhite;
-    margin-top: 100px;
 }
 
 /*============================================ FAQ.PHP ========================================================*/
@@ -95,6 +94,12 @@
 
 #faq {
     background-color: ghostwhite;
+    text-align: center;
+    color: #3E3E3B;
+}
+
+#faq hr{
+    border-color: #2C3E50;
 }
 
 /*============================================ MAILERFORM.PHP ========================================================*/
@@ -104,6 +109,15 @@
     width: 100%;
     padding: 20px;
     background-color: ghostwhite;
+    color:
+}
+
+#contactIcon1 {
+    width: 30px;
+}
+
+#contactIcon2 {
+    width: 30px;
 }
 
 
