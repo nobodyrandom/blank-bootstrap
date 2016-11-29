@@ -1,5 +1,5 @@
 
-<footer class="footer footerTicker" style="background-color: #C5D8E9">
+<footer class="footer footerTicker" style="background-color: #ffffff">
 
     <div class="footer-top"></div>
 

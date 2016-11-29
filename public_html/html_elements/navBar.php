@@ -19,10 +19,10 @@
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#faq">FAQ</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#mailerForm">Contact</a>
                 </li>
             </ul>
         </div>
