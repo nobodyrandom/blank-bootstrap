@@ -13,7 +13,7 @@
                             <li data-target="#teamCarousel" data-slide-to="4" class=""></li>
                             <li data-target="#teamCarousel" data-slide-to="5" class=""></li>
                         </ol>
-                        <div class="carousel-inner">
+                        <div class="carousel-inner carouselViewWindow">
                             <div class="item active">
                                 <div class="col-md-4">
                                     <a href="#">

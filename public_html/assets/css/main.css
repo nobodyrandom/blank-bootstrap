@@ -3,8 +3,6 @@
 
 
 
-
-
 /*============================================ CAROUSEL FORMATTING ============================================*/
 
 .carousel .carousel-control {
@@ -86,30 +84,46 @@
 }
 
 #threeCarousel {
-    background-color: ghostwhite;
+    background-color: #3e3e3b;
+}
+
+.carouselViewWindow {
+    margin-top: 30px;
 }
 
 /*============================================ FAQ.PHP ========================================================*/
 
 
 #faq {
-    background-color: ghostwhite;
+    background-color: white;
     text-align: center;
     color: #3E3E3B;
+}
+
+.faqContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #faq hr{
     border-color: #2C3E50;
 }
 
-/*============================================ MAILERFORM.PHP ========================================================*/
+/*============================================ CONTACTUS1.PHP ========================================================*/
 
 
 #mailerForm {
     width: 100%;
     padding: 20px;
-    background-color: ghostwhite;
-    color:
+    background-color: #3e3e3b;
+}
+
+.contactUsText {
+    color: white;
+}
+
+.contactUsContainer {
+    margin-bottom: 20px;
 }
 
 #contactIcon1 {
@@ -142,12 +156,13 @@
 }
 
 #footerTicker {
-    background-color: ghostwhite;
+    background-color: white;
     color: #3E3E3B;
 }
 
+/*============================================ FOOTERTICKER.PHP ========================================================*/
 
 #footer {
-    background-color: #2C3E50;
+    background-color: white;
 }
 
