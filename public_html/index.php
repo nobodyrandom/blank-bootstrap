@@ -46,6 +46,7 @@
         include_once "html_elements/contactUs1.php";
         include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";
+        include_once "html_elements/footer2.php";
     ?>
 
 
@@ -79,3 +80,5 @@
     <!-- Additional JS Files-->
     <script src="assets/js/nob.js" type="text/javascript"></script>
 </body>
+
+</html>

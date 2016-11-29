@@ -3,6 +3,8 @@
 
 
 
+
+
 /*============================================ CAROUSEL FORMATTING ============================================*/
 
 .carousel .carousel-control {
@@ -95,7 +97,7 @@
 
 
 #faq {
-    background-color: white;
+    background-color: ghostwhite;
     text-align: center;
     color: #3E3E3B;
 }
@@ -109,7 +111,11 @@
     border-color: #2C3E50;
 }
 
-/*============================================ CONTACTUS1.PHP ========================================================*/
+#faq a {
+    color: #3E3E3B;
+}
+
+/*============================================ MAILERFORM.PHP ========================================================*/
 
 
 #mailerForm {
@@ -119,7 +125,7 @@
 }
 
 .contactUsText {
-    color: white;
+    color: ghostwhite;
 }
 
 .contactUsContainer {
@@ -156,13 +162,19 @@
 }
 
 #footerTicker {
-    background-color: white;
+    background-color: ghostwhite;
     color: #3E3E3B;
 }
 
-/*============================================ FOOTERTICKER.PHP ========================================================*/
 
 #footer {
-    background-color: white;
+    background-color: #2C3E50;
 }
 
+#footerText{
+    color: darkcyan;
+}
+
+.copyright {
+    padding-top: 16px;
+}
