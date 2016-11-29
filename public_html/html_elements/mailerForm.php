@@ -5,14 +5,13 @@ if you have received this message it would be much appreciated if you could plea
 so that I can fix this error. Thank you.
 -->
 
-<div class="section suggestion-section header-filter" id="mailerForm" style="width: 100%; background-color: #3e3e3b;">
+<div class="section suggestion-section header-filter" id="mailerForm">
     <div class="container">
-        <div class="title text-center" style="color: #ffffff">
+        <div class="title text-center">
             <h2><strong>Contact Us</strong></h2>
             <hr>
             <small>Do you have useful suggestion(s) for us or do you think you do?</small>
             <small>If yes, please tell us below. We like to hear from you.</small>
-            <p></p>
         </div>
         <div class="row">
             <form class="form-email" action="" method="post" data-form-type="nob">

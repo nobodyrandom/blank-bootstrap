@@ -1,5 +1,5 @@
 
-<footer class="footer footerTicker" style="background-color: #ffffff">
+<footer class="footer footerTicker" id="footerTicker">
 
     <div class="footer-top"></div>
 
@@ -7,7 +7,7 @@
         <div class="container">
             <p><br></p>
             <div class="row">
-                <div class="col-md-4 footer3">
+                <div class="col-md-4">
                     <div class="footer-col">
                         <h4 class="footer-title">About us<span class="title-under"></span></h4>
                         <div class="footer-content">
