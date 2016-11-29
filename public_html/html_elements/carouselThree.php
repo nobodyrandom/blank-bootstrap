@@ -1,6 +1,7 @@
 
-<div class="section" style="background-color: #99F7AB">
+<div class="section" id="portfolio" style="background-color: #3e3e3b">
     <div class="container">
+        <p><br></p>
         <div class="title" style="color: #ffffff">
             <h2><Strong>Sample header</Strong></h2>
             <hr id="faqHr">
