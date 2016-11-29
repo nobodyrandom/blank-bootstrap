@@ -2,9 +2,7 @@
 <!-- FAQ contents goes in here -->
 <div id="faq"">
     <div class="container">
-
-
-        <div class="row">
+        <div class="row faqContainer">
 
             <div class="col-sm-10 col-sm-offset-1">
                 <a href="#faq1"  data-toggle="collapse"><h2>FAQ #1</h2><hr style="width: 100%"><br></a>

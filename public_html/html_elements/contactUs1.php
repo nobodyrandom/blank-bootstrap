@@ -6,12 +6,13 @@ so that I can fix this error. Thank you.
 -->
 
 <div class="section suggestion-section header-filter" id="mailerForm">
-    <div class="container">
-        <div class="title text-center">
+    <div class="container contactUsContainer">
+        <div class="title text-center contactUsText">
             <h2><strong>Contact Us</strong></h2>
             <hr>
             <small>Do you have useful suggestion(s) for us or do you think you do?</small>
             <small>If yes, please tell us below. We like to hear from you.</small>
+            <p><br></p>
         </div>
         <div class="row">
             <form class="form-email" action="" method="post" data-form-type="nob">

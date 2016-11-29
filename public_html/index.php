@@ -43,7 +43,7 @@
         include_once "html_elements/carouselThree.php";
         include_once "html_elements/faq.php";
         include_once "html_elements/carouselTitle.php";
-        include_once "html_elements/mailerForm.php";
+        include_once "html_elements/contactUs1.php";
         include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";
     ?>

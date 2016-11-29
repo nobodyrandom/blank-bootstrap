@@ -16,7 +16,7 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#teamCarousel">Portfolio</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#faq">FAQ</a>
