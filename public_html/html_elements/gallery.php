@@ -37,7 +37,7 @@
                             <div class="gallery-item">
                                 <div class="hover-bg">
                                     <a href="#nob-lb-gallery" data-slide-to="4" data-toggle="modal">
-                                        <img src="//placehold.it/700x100" class="img-responsive img-rounded img-centered">
+                                        <img src="//placehold.it/700x104" class="img-responsive img-rounded img-centered">
                                     </a>
                                 </div>
                             </div>
