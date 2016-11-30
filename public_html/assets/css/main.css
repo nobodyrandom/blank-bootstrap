@@ -1,4 +1,10 @@
 
+/* DEBUGGING */
+/** {*/
+    /*border: 1px solid red !important;*/
+/*}*/
+
+
 /*============================================ NAV BAR ========================================================*/
 
 
@@ -115,33 +121,7 @@
     color: #3E3E3B;
 }
 
-/*============================================ MAILERFORM.PHP ========================================================*/
-
-
-#mailerForm {
-    width: 100%;
-    padding: 20px;
-    background-color: #3e3e3b;
-}
-
-.contactUsText {
-    color: ghostwhite;
-}
-
-.contactUsContainer {
-    margin-bottom: 20px;
-}
-
-#contactIcon1 {
-    width: 30px;
-}
-
-#contactIcon2 {
-    width: 30px;
-}
-
-
-/*============================================ FOOTERTICKER.PHP ========================================================*/
+/*============================================ FOOTER.PHP ========================================================*/
 
 #footer i.fa {
     height: 30px;
@@ -178,3 +158,56 @@
 .copyright {
     padding-top: 16px;
 }
+
+/*============================================ GALLERY.PHP ========================================================*/
+
+
+.modal.carousel-fit .modal-body {
+    padding: 0 !important;
+}
+
+.modal.carousel {
+    position: fixed;
+}
+
+.gallery-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: 30%;
+}
+
+.gallery-item .hover-bg {
+    position: relative;
+}
+
+.gallery1 {
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+
+/*============================================ MAILERFORM.PHP ========================================================*/
+
+
+#mailerForm {
+    width: 100%;
+    padding: 20px;
+    background-color: #3e3e3b;
+}
+
+.contactUsText {
+    color: ghostwhite;
+}
+
+.contactUsContainer {
+    margin-bottom: 20px;
+}
+
+#contactIcon1 {
+    width: 30px;
+}
+
+#contactIcon2 {
+    width: 30px;
+}
+

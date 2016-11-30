@@ -40,6 +40,7 @@
         $hasGmap = true;
         include_once "html_elements/navBar.php";
         include_once "html_elements/header.php";
+        include_once "html_elements/gallery.php";
         include_once "html_elements/carouselThree.php";
         include_once "html_elements/faq.php";
         include_once "html_elements/carouselTitle.php";
