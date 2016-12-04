@@ -44,6 +44,7 @@
         include_once "html_elements/faq.php";
         include_once "html_elements/carouselTitle.php";
         include_once "html_elements/contactUs1.php";
+        include_once "html_elements/googleMaps.php";
         include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";
         include_once "html_elements/footer2.php";
@@ -79,6 +80,9 @@
 
     <!-- Additional JS Files-->
     <script src="assets/js/nob.js" type="text/javascript"></script>
+
+    <!-- Google Maps API File -->
+    <script src="//maps.google.com/maps/api/js?key=AIzaSyBjGkX6gbOjiM6Ewg3cTeqGyK25z6YFdqQ&callback=loadedGmap" async defer></script>
 </body>
 
 </html>
