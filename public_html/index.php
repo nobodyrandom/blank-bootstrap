@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
     <!-- Theme CSS -->
-    <link href="assets/css/freelancer.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
     <!-- Custom Fonts -->
