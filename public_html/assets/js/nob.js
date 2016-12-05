@@ -167,6 +167,7 @@ $(document).ready(function () {
                     submitButton.prop("disabled", false);
                 },
                 error: function (error) {
+                    console.log(sendData);
                     console.log("Email was not sent successfully.");
                     console.log(error);
                     // Throw error message
