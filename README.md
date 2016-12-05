@@ -1,12 +1,17 @@
-# blank-bootstrap
+# Blank Bootstrap
 For developers' foundation
 
 Dupe this for quick new projects :D
 
 GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
 
+## Table of Contents:
 
-### Clone template and setup composer
+- [How-To](#how-to)
+- [Google Maps](#google-maps)
+
+## How-To:
+#### Clone template and setup composer
 To clone into a new repo use:
 
 1. Create new git repo on github
@@ -19,7 +24,7 @@ To clone into a new repo use:
 (If you are really that lazy, I've included a shell script to run step 2 onwards to set up everything. Run it using `./init.sh` on terminal. No cmd support yet)
 
 
-### Deploy to Heroku
+#### Deploy to Heroku
 If you would like to use quick deploy into heroku after you cloned.
 
 Update the `app.json` and click the below button.
@@ -27,7 +32,7 @@ Update the `app.json` and click the below button.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 #
-## Google Map 
+## Google Maps 
 
 An Interactive Google Map with customizable features.
  
