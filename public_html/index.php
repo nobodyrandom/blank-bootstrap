@@ -82,7 +82,9 @@
     <script src="assets/js/nob.js" type="text/javascript"></script>
 
     <!-- Google Maps API File -->
-    <script src="//maps.google.com/maps/api/js?key=AIzaSyBjGkX6gbOjiM6Ewg3cTeqGyK25z6YFdqQ&callback=loadedGmap" async defer></script>
+    <script src="//maps.google.com/maps/api/js?key=AIzaSyBjGkX6gbOjiM6Ewg3cTeqGyK25z6YFdqQ&callback=loadedGmap" async defer>
+        loadedGmap();
+    </script>
 </body>
 
 </html>

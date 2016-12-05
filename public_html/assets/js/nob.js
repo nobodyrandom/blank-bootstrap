@@ -6,7 +6,7 @@
 /* Nob Google Map Start
  /* ----------------------------------------------------------- */
 function loadedGmap() {
-    if ($('body').hasClass("index-page")) {
+    // if ($('body').hasClass("index-page")) {
         // create a LatLng object containing the coordinate for the center of the map
         var latlng = new google.maps.LatLng(-33.86455, 151.209);
 
@@ -68,7 +68,7 @@ function loadedGmap() {
         var infowindow = new google.maps.InfoWindow({
             content: '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
         });
-    }
+    // }
 }
 /* ----------------------------------------------------------- */
 /* Nob Google Map End
@@ -167,7 +167,7 @@ $(document).ready(function () {
                     submitButton.prop("disabled", false);
                 },
                 error: function (error) {
-                    console.log(sendData);
+                    // console.log(sendData);
                     console.log("Email was not sent successfully.");
                     console.log(error);
                     // Throw error message
