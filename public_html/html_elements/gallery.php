@@ -1,6 +1,6 @@
 
-<div class="section gallery-content">
-    <div class="container gallery1">
+<div class="section gallery-content" id="gallery1">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
 

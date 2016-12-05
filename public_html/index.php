@@ -45,6 +45,7 @@
         include_once "html_elements/carouselTitle.php";
         include_once "html_elements/contactUs1.php";
         include_once "html_elements/googleMaps.php";
+        include_once "html_elements/events.php";
         include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";
         include_once "html_elements/footer2.php";
@@ -74,7 +75,6 @@
 
     <!-- Theme JavaScript -->
     <script src="assets/js/freelancer.js"></script>
-    <script src="assets/js/freelancer.min.js"></script>
     <script src="assets/js/material.min.js"></script>
     <script src="assets/js/material-kit.js" type="text/javascript"></script>
 
