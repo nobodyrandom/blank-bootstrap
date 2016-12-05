@@ -4,6 +4,7 @@ For developers' foundation
 Dupe this for quick new projects :D
 
 GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
+Inspirations: https://www.facebook.com/groups/hackathonhackers/permalink/1421368544585293/
 
 ## Table of Contents:
 
