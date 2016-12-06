@@ -1,4 +1,16 @@
 
+<!--
+
+A footer module providing three different functionalities:
+  1) Text section
+  2) Twitter feed
+  3) RSS feed
+
+TODO: enter your twitter feed id
+TODO: enter your RSS feed address
+
+-->
+
 <footer class="footer footerTicker" id="footerTicker">
 
     <div class="footer-top"></div>
@@ -7,6 +19,8 @@
         <div class="container">
             <p><br></p>
             <div class="row">
+
+                <!-- Text section -->
                 <div class="col-md-4">
                     <div class="footer-col">
                         <h4 class="footer-title">About us<span class="title-under"></span></h4>
@@ -27,6 +41,7 @@
                     </div>
                 </div>
 
+                <!-- Twitter feed -->
                 <div class="col-md-4 footer3">
                     <div class="footer-col">
                         <h4 class="footer-title">TWITTER FEED<span class="title-under"></span></h4>
@@ -34,6 +49,8 @@
                         <!--
                         To use this twitter feed you must set up your twitter widget and get a data-widget id,
                         this can be done here: https://twitter.com/settings/widgets
+
+                        TODO: add your id to the data-widget-id section
                         -->
 
                         <a class="twitter-timeline" href="https://twitter.com/YOUR_TWITTER"
@@ -50,10 +67,12 @@
                     </div>
                 </div>
 
+                <!-- RSS feed -->
                 <div class="col-md-4 footer3">
                     <div class="footer-col">
                         <h4 class="footer-title">RSS FEED<span class="title-under"></span></h4>
-                        <!-- start feedwind code -->
+
+                        <!-- Start feedwind code -->
                         <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' +
                                 ('https:' == document.location.protocol ? 'https://' : 'http://') +
                                 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
@@ -61,7 +80,7 @@
                         <script type="text/javascript">(function () {
                                 var params = {
 
-                                    // The line below is where you input the rss feed location.
+                                    // TODO: alter the below line to the address of your rss feed
                                     rssmikle_url: "https://news.google.ca/?output=rss",
                                     rssmikle_frame_width: "100%",
                                     rssmikle_frame_height: "400",
@@ -110,9 +129,11 @@
                                 feedwind_show_widget_iframe(params);
                             })();
                         </script>
+
                         <div style="font-size:10px; text-align:center; width:100%;">
                             <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -120,13 +141,14 @@
         </div>
     </div>
 
+
     <div class="footer-bottom">
         <div class="container text-right">
             Developer's Foundation
         </div>
     </div>
 
-</footer> <!-- main-footer -->
+</footer>
 
 
 

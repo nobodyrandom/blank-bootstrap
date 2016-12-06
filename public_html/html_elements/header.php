@@ -1,4 +1,9 @@
-<!-- Header -->
+<!--
+
+A header module provide a space for an image as well as basic text.
+
+-->
+
 <header>
     <div class="container" id="page-top">
         <div class="row">

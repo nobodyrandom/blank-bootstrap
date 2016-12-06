@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- repush -->
-
 <head>
 
     <!--=========================================== WEBPAGE METADATA ====================================-->
@@ -52,6 +49,7 @@
         include_once "html_elements/footerTicker.php";
         include_once "html_elements/footer.php";
         include_once "html_elements/footer2.php";
+        include_once "html_elements/contactUsModal.php";
     ?>
 
 
