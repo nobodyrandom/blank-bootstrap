@@ -36,12 +36,20 @@ git remote add api https://github.com/nobodyrandom/blank-bootstrap.git
 
 echo "Alls well. Done init."
 
-# Ask about installing brew
-while true; do
+# Check if Xcode is installed
+if [ `find /Applications -maxdepth 1 -name Xcode.app | wc -m` != 0 ]; then
+    # Xcode is installed!
+    XCODE=1;
+else
+    # Xcode is not installed
+    echo "If you would like this script to install php, please install Xcode first."
+fi
+
+# Ask about installing brew (only if Xcode is installed)
+while [ XCODE -eq 1 ]; do
     read -p "Would you like brew installed on MacOS? (It'll help us install php later) " yn
     case $yn in
         [Yy]* )
-            echo "Please ensure Xcode is installed on your mac."
             echo "xcode-select --install";
             xcode-select --install;
             echo "/usr/bin/ruby -e $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
@@ -59,15 +67,6 @@ if [ `which brew | wc -m` != 0 ]; then
 else
     # Brew is not installed
     echo "If you would like this script to install php, please install brew first."
-fi
-
-# Check if Xcode is installed
-if [ `find /Applications -maxdepth 1 -name Xcode.app | wc -m` != 0 ]; then
-    # Xcode is installed!
-    XCODE=1;
-else
-    # Xcode is not installed
-    echo "If you would like this script to install php, please install Xcode first."
 fi
 
 sleep 1
