@@ -1,4 +1,11 @@
 
+<!--
+
+A simple social media footer module.
+TODO: change the links in link.php to your required destination
+
+-->
+
 <footer class="footer" id="footerText">
     <div class="container">
 

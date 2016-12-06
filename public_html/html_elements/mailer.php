@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Created by PhpStorm.
@@ -14,9 +15,9 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
 require '../../vendor/autoload.php';
 $getPost = (array)json_decode(file_get_contents('php://input'));
 
+// TODO: your API key will be passed as a parameter for the nw SendGrid object.
 $sendgrid = new SendGrid('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');
 $email = new SendGrid\Email();
-
 
 $email
     ->addTo($getPost['sendTo'])
@@ -30,6 +31,7 @@ $email
     ->setSubject($getPost['subject'])
     ->setText($getPost['msg'])
     ->setHtml($getPost['msgHTML']);
+
 //test
 try {
     $sendgrid->send($email);

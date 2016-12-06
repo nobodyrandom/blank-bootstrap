@@ -111,11 +111,7 @@
     margin-bottom: 20px;
 }
 
-#contactIcon1 {
-    width: 30px;
-}
-
-#contactIcon2 {
+.contactIcon {
     width: 30px;
 }
 
