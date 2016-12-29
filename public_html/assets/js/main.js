@@ -4,22 +4,23 @@
 /* ----------------------------------------------------------- */
 
 
-
 function resizeEvent(){
     var width = $(this).width();
     var point1 = Math.floor(width/5);
     var point2 = Math.floor(width/10);
     var space = Math.floor(width * 0.01);
-    var mid = Math.floor(width/2) - point2
+    var mid = Math.floor(width/2) - point2;
 
     $('#svg1').attr({
         width: width,
         height: point1
     });
 
+    // Resize the shape of the polygon (the triangles)
     $('#poly1').attr('points', point2 + ",0 0," + point1 + " " + point1 + "," + point1);
     $('#poly2').attr('points', "0,0 " + point1 + ",0 " + point2 + "," + point1);
 
+    // Resize the image attributes and retransform the images.
     $('#im1').attr({
         width: point1,
         height: point1,
@@ -51,6 +52,7 @@ function resizeEvent(){
     });
 }
 
+// Whenever a window is resized we need to update the sizes of the triangles (for responsiveness)
 $(function jQueryResize (){
     $(window).resize(function(){
         resizeEvent();
@@ -58,6 +60,7 @@ $(function jQueryResize (){
 });
 
 
+// These selectors allow us to create links associated with the polygonal images.
 $(function imageSelectors () {
 
     $('#im1').on('click', function(){
@@ -79,6 +82,7 @@ $(function imageSelectors () {
 
 });
 
+// Since we use absolute positioning, we need to resize when the website is loaded in order to fit to the current screen size.
 $(function (){
     resizeEvent();
 });
