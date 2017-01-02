@@ -3,6 +3,11 @@
 
 <head>
 
+    <!--
+    NOTE: All stylesheet and scripts should be included in this file, since paths will not point
+    to the correct locations once php includes your designated module.
+    -->
+
     <!--=========================================== WEBPAGE METADATA ====================================-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
