@@ -1,10 +1,21 @@
 # Blank Bootstrap
-For developers' foundation
+For developers' foundation.
 
 Dupe this for quick new projects :D
 
 GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
 Inspirations: https://www.facebook.com/groups/hackathonhackers/permalink/1421368544585293/
+
+
+This blank-bootstrap repository contains several self-contained modules that can be mix and matched and altered to
+suit your design needs; in other words, each module provides a basic functionality for you to build upon.
+
+Experiment with the modules and feel free to add modules of your own.
+
+If you have any questions, or would like to show us what you've created, don't hesitate to contact:
+    alex@developersfoundation.ca
+    paul@developersfoundation.ca
+    
 
 ## Table of Contents:
 
