@@ -20,11 +20,13 @@ If you have any questions, or would like to show us what you've created, don't h
 ## Table of Contents:
 
 - [How-To](#how-to)
+- [Photo Carousel](#carousel-three)
+- [Gallery](#gallery)
 - [Google Maps](#google-maps)
 
 ## How-To:
 #### Clone template and setup composer
-To clone into a new repo use:
+To clone into a new repo:
 
 1. Create new git repo on github
 2. In a clean space (not inside another git repo) `git clone https://github.com/nobodyrandom/blank-bootstrap.git projectName`
@@ -33,7 +35,10 @@ To clone into a new repo use:
 5. `git remote add origin https://github.com/nobodyrandom/NAME_OF_REPO.git`
 6. `git push -u origin master`
 
-(If you are really that lazy, I've included a shell script to run step 2 onwards to set up everything. Run it using `./init.sh` on terminal. No cmd support yet)
+If you are really that lazy, I've included a shell script to run step 2 onwards to set up everything. 
+It also sets up PHP and Homebrew on your Mac if you don't have it installed yet. 
+
+Run it using `./init.sh` on terminal. No cmd support yet.
 
 
 #### Deploy to Heroku
@@ -43,12 +48,31 @@ Update the `app.json` and click the below button.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-#
+## Carousel Three
+
+A straightforward photo carousel that rotates up to 6 images.
+
+## Carousel Title
+
+A straightforward photo carousel that displays one image at a time.
+
+## Gallery
+
+This module provides a 3 by x gallery for your images.
+Images can be of any size; however, note that they are sorted by column,
+therefore to place 3 images horizontally you need to place the images in three different columns.
+
+This module also provides a lightbox to view the images; ensure the data-slide-to sections are
+appropriately labelled if you wish to maintain the order of your photos.
+
+**Note:** if you wish to create more columns change the col-md-4 class of each column,
+      keep in mind that bootstrap divides a row into 12 columns, so if you wanted 4 columns
+      you would change this value to col-md-3, and add an additional column.
+
 ## Google Maps 
 
 An Interactive Google Map with customizable features.
  
-
 #### Instructions
 
 Very simple usage.  Firstly, Place the provided code snippets in their respective files.
