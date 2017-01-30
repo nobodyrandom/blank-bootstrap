@@ -48,7 +48,7 @@ Update the `app.json` and click the below button.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-#### How to use a Module
+### How to use a Module
 
 Module files can be found in the ```html_elements``` directory. If you want to include a module in your website, simply add 
 ```
