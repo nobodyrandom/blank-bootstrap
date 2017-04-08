@@ -3,7 +3,7 @@ For developers' foundation.
 
 Dupe this for quick new projects :D
 
-GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git
+GitHub link is: https://github.com/nobodyrandom/blank-bootstrap.git<br>
 Inspirations: https://www.facebook.com/groups/hackathonhackers/permalink/1421368544585293/
 
 
@@ -40,6 +40,30 @@ It also sets up PHP and Homebrew on your Mac if you don't have it installed yet.
 
 Run it using `./init.sh` on terminal. No cmd support yet.
 
+#### Work with this template
+
+Using the various features implemented in this template is easy.
+
+Create your HTML pages as PHP files, if you've never used PHP don't worry, we will only be using a few instructions.
+
+Set up your page as you would normally, and when you want to use a module you can insert it into the
+page with:
+
+    <?php 
+        include_once "html_elements/yourModule.php";
+    ?>
+
+This has the same effect as pasting the code in yourModule.php directly into that part of the page,
+so ensure that all tags are closed to avoid hard to detect bugs. This also means that paths in module files
+will not be corrected upon inclusion, so make sure all paths are relative to where they will end up.
+
+The style for all modules can be found in public_html/assets/css/main.css, we have provided a generic
+theme but feel free to make it your own.
+
+JavaScript supporting the various elements can be found in public_html/assets/js.
+
+If you would like to follow our design strategy of creating self contained modules and create something 
+that you think is unique, we would love to add it to the template, so do hesitate to submit a pull request.
 
 #### Deploy to Heroku
 If you would like to use quick deploy into heroku after you cloned.

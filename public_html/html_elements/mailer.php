@@ -15,12 +15,12 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
 require '../../vendor/autoload.php';
 $getPost = (array)json_decode(file_get_contents('php://input'));
 
-// TODO: your API key will be passed as a parameter for the nw SendGrid object.
-$sendgrid = new SendGrid('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');
+// TODO: your API key should be set as an environmental variable on heroku for security.
+$sendgrid = new SendGrid($_ENV["SENDGRID_API_TOKEN"]);
 $email = new SendGrid\Email();
 
 $email
-    ->addTo($getPost['sendTo'])
+    ->addTo($_ENV["EMAIL_TO"])              // TODO: so should your send to email to avoid abuse
     ->addToName($getPost['toName'])
     //->addTo('bar@foo.com') //One of the most notable changes is how `addTo()` behaves.
     // We are now using our Web API parameters instead of the X-SMTPAPI header.
@@ -35,8 +35,7 @@ $email
 //test
 try {
     $sendgrid->send($email);
-//    echo json_encode(array('success' => true, 'message' => "done"));
-    json_encode(array('success' => true, 'message' => "done"));
+    echo json_encode(array('success' => true, 'message' => "done"));
 } catch (\SendGrid\Exception $e) {
     $err = $e->getCode() . "\n";
     foreach ($e->getErrors() as $er) {
@@ -44,3 +43,4 @@ try {
     }
     echo json_encode(array('success' => false, 'message' => $err));
 }
+
