@@ -15,8 +15,8 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
 require '../../vendor/autoload.php';
 $getPost = (array)json_decode(file_get_contents('php://input'));
 
-// TODO: your API key should be set as an environmental variable on heroku for security.
-$sendgrid = new SendGrid($_ENV["SENDGRID_API_TOKEN"]);
+
+$sendgrid = new SendGrid($_ENV["SENDGRID_API_KEY"]); // PUT IN REAL API INTO HEROKU ENV Variables
 $email = new SendGrid\Email();
 
 $email
