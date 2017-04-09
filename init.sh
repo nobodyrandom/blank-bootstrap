@@ -36,54 +36,54 @@ git remote add api https://github.com/nobodyrandom/blank-bootstrap.git
 
 echo "Alls well. Done init."
 
-# Check if Xcode is installed
-if [ `find /Applications -maxdepth 1 -name Xcode.app | wc -m` != 0 ]; then
-    # Xcode is installed!
-    XCODE=1;
-else
-    # Xcode is not installed
-    echo "If you would like this script to install php, please install Xcode first."
-fi
+# # Check if Xcode is installed
+# if [ `find /Applications -maxdepth 1 -name Xcode.app | wc -m` != 0 ]; then
+#     # Xcode is installed!
+#     XCODE=1;
+# else
+#     # Xcode is not installed
+#     echo "If you would like this script to install php, please install Xcode first."
+# fi
 
-# Ask about installing brew (only if Xcode is installed)
-while [ XCODE -eq 1 ]; do
-    read -p "Would you like brew installed on MacOS? (It'll help us install php later) " yn
-    case $yn in
-        [Yy]* )
-            echo "xcode-select --install";
-            xcode-select --install;
-            echo "/usr/bin/ruby -e $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
-            /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
-            break;;
-        [Nn]* ) echo "Great, we won't install it then."; break;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+# # Ask about installing brew (only if Xcode is installed)
+# while [ XCODE -eq 1 ]; do
+#     read -p "Would you like brew installed on MacOS? (It'll help us install php later) " yn
+#     case $yn in
+#         [Yy]* )
+#             echo "xcode-select --install";
+#             xcode-select --install;
+#             echo "/usr/bin/ruby -e $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+#             /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+#             break;;
+#         [Nn]* ) echo "Great, we won't install it then."; break;;
+#         * ) echo "Please answer yes or no.";;
+#     esac
+# done
 
-# Check if brew is installed
-if [ `which brew | wc -m` != 0 ]; then
-    # Brew is installed!
-    BREW=1;
-else
-    # Brew is not installed
-    echo "If you would like this script to install php, please install brew first."
-fi
+# # Check if brew is installed
+# if [ `which brew | wc -m` != 0 ]; then
+#     # Brew is installed!
+#     BREW=1;
+# else
+#     # Brew is not installed
+#     echo "If you would like this script to install php, please install brew first."
+# fi
 
-sleep 1
+# sleep 1
 
-while [[ BREW -eq 1 && XCODE -eq 1 ]]; do
-    read -p "Shall we install php on your Mac? " yn
-    case $yn in
-        [Yy]* ) echo "Future tip: If you run into problems, try updating Xcode Command Line Tools.";
-            brew tap homebrew/dupes;
-            brew tap homebrew/versions;
-            brew tap homebrew/homebrew-php;
-            brew install php70;
-            break;;
-        [Nn]* ) echo "Php will not be set up."; break;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+# while [[ BREW -eq 1 && XCODE -eq 1 ]]; do
+#     read -p "Shall we install php on your Mac? " yn
+#     case $yn in
+#         [Yy]* ) echo "Future tip: If you run into problems, try updating Xcode Command Line Tools.";
+#             brew tap homebrew/dupes;
+#             brew tap homebrew/versions;
+#             brew tap homebrew/homebrew-php;
+#             brew install php70;
+#             break;;
+#         [Nn]* ) echo "Php will not be set up."; break;;
+#         * ) echo "Please answer yes or no.";;
+#     esac
+# done
 
 sleep 1
 
