@@ -25,7 +25,6 @@ This module displays faqs, providing a place for large amounts of hideable text.
                 </div>
             </div>
 
-
             <div class="col-sm-10 col-sm-offset-1">
                 <a href="#faq2"  data-toggle="collapse"><h2 class="faqHeader">FAQ #2</h2><hr style="width: 100%"><br></a>
                 <div id="faq2" class="collapse">
