@@ -65,6 +65,8 @@ JavaScript supporting the various elements can be found in public_html/assets/js
 If you would like to follow our design strategy of creating self contained modules and create something 
 that you think is unique, we would love to add it to the template, so do hesitate to submit a pull request.
 
+![](blankbootstrap.png)
+
 #### Deploy to Heroku
 If you would like to use quick deploy into heroku after you cloned.
 
