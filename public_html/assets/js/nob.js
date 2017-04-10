@@ -113,8 +113,8 @@ $(document).ready(function () {
             // Nob form
             var sendFrom = emailField.val(),
 
-                // TODO: change this email to where the messages will be sent to:
-                sendTo = "psalvato@uwo.ca",
+                // TODO: this field does not matter, the to address needs to be an environment variable on heroku
+                sendTo = "",
                 subject = "Message from " + nameField.val(),
                 msg = messageField.val(),
                 msgHTML = "<p>" + messageField.val() + "<p>",
