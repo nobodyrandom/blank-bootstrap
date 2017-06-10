@@ -4,7 +4,6 @@
     /*border: 1px solid red !important;*/
 /*}*/
 
-
 /*============================================ CAROUSEL FORMATTING ============================================*/
 
 .carousel .carousel-control {
@@ -265,7 +264,7 @@
 /*============================================ NAV BAR ========================================================*/
 
 .navbar-custom {
-    background: #2C3E50;
+    background: #3e3e3b;
     font-weight: 700;
     border: none
 }
@@ -331,7 +330,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    background-color: #18BC9C;
+    background-color: #98B7CB;
     color: #fff
 }
 
@@ -354,7 +353,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    background: #18BC9C
+    background: #98B7CB;
 }
 
 header .container {
