@@ -57,6 +57,6 @@ page with:
     ?>
 
 #### Rendered page
-![](blankbootstrap.png)
+![](doc/blankbootstrap.png)
 
 
